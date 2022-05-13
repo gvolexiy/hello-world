@@ -1,10 +1,88 @@
 <!doctype html>
-<html>
-  <head>
-    <title>HELLO WORLD</title>
-  </head>
-  <body>
-    <h1>HELLO WORLD</h1>
-    <p>HELLO WORLD from GITPOD!</p>
-  </body>
+<html lang="en">
+
+<head>
+  <title>HELLO WORLD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c6dc5e28cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__contactc" style="background-color: #689ff2">
+      <p>ProntoWash</p>
+      <a href="tel:044-258-0-258">044-258-0-258</a>
+      <div>
+        <img width="73" src="img/vehicle_logo.jpg" alt="Foto car">
+        <a class="link" href="#our-services">Our services</a>
+        <a class="link" href="#pricing">Pricing</a>
+        <a class="link" href="#gifts">Deals</a>
+        <a class="link" href="#faq">FAQ</a>
+        <a class="link" href="#contacts">Contacts</a>
+        <a class="link" href="club.html">Club</a>
+      </div>
+      <div>
+        <a href="https://instagram.com">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://youtube.com">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </nav>
+    <div class="header__maininfo">
+      <h1 class="header__maininfo_h1">Welcome to ProntoWash</h1>
+      <p class="subheader">Making your car shine like the diamond it is!</p>
+      <a href="#contacts" class="header__maininfo-link button">Contact US</a>
+    </div>
+  </header>
+  <main>
+    <section class="service">
+      <h2 class="service-h2">Our Services</h2>
+      <p class="service-h2-text"> Here at ProntoWash, we strive to give our customers quality wash and</p>
+      <p class="service-h2-text"> express detail services with a customer experience second to none.</p>
+      <div class="oure-service">
+        <article class="service-artic">
+          <img class="service-img" src="img/car_wash.jfif" alt="Car wash">
+          <h3 class="service-artic_h3">Car Wash</h3>
+        </article>
+        <article class="service-artic">
+          <img class="service-img" src="img/detail_shop.jfif" alt="Detail shop">
+          <h3 class="service-artic_h3">Detail Shop</h3>
+        </article>
+        <article class="service-artic">
+          <img class="service-img" src="img/oil_change.jfif" alt="Oil change">
+          <h3 class="service-artic_h3">Oil Change</h3>
+        </article>
+        <article class="service-artic">
+          <img class="service-img" src="img/fast_pass.jpeg" alt="Fast pass">
+          <h3 class="service-artic_h3">Fast Pass</h3>
+        </article>
+      </div>
+      
+    </section>
+    
+  </main>
+  <footer class="footer">
+    <div class="footer-contacts">
+      <h2 class="contacts"> Contact US!</h2>
+    </div>
+    <div class="footer-form">
+      <form action="https://formspree.io/f/moqrylnv" method="POST">
+        <input name="name" type="text" placeholder="Full name*" required>
+        <input name="Phone" type="tel" placeholder="Phone number*" required>
+        <input name="email" type="email" placeholder="E-mail*" required>
+        <input name="text" type="text" placeholder="Your mesage*" required>
+        <input type="submit" value="Send request">
+      </form>
+    </div>
+
+  </footer>
+
+</body>
+
 </html>
